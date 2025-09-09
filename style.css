@@ -70,7 +70,7 @@ header h2 {
 }
 
 .course-header h3 {
-  font-size: 1.4rem;
+  font-size: 21px;
   margin: 0;
 }
 
@@ -89,7 +89,7 @@ header h2 {
   margin-bottom: 1.5rem;
   color: #464747;
   line-height: 1.8;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #Descricao {
@@ -100,7 +100,7 @@ header h2 {
   background: #2e5071;
   color: white;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   padding: 0.8rem 1.5rem;
   border-radius: 50px;
   cursor: pointer;
@@ -152,7 +152,7 @@ header h2 {
 
 .info-item h4 {
   color: #124578;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 0.3rem;
 }
 
@@ -189,3 +189,4 @@ footer {
     width: 100%;
   }
 }
+
