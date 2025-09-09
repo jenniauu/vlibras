@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etec Darcy Pereira de Moraes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div> 
+    
+    <header>
+        <div class="container">
+            <h1>Etec Darcy Pereira de Moraes</h1>
+            <h2>Cursos Técnicos Da Área De Tecnologia</h2>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="courses">
+            <section class="course">
+                <div class="course-header">
+                    <h3>Informática Para Internet</h3>
+                </div>
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Informática Para Internet" class="course-image">
+                <div class="course-content">
+                    <p id="Descricao">
+                        O processo de criação de sites e o de desenvolvimento de programas que
+                        podem ser utilizados em páginas na internet. Para programar, o aluno
+                        vai estudar raciocínio lógico e linguagens de programação, que utiliza
+                        comandos para desenvolver funcionalidades e dar forma a um site. Além
+                        disso, o estudante aprenderá um pouco de design com o objetivo de
+                        tornar a página mais agradável e fácil de ser utilizada. O aluno
+                        aprenderá ainda como criar e alterar bancos de dados que vão alimentar
+                        os sites. Noções de marketing digital para a web e de empreendedorismo
+                        também serão ensinadas ao longo do curso.
+                    </p>
+                    <button class="info-btn" onclick="toggleInfo('IPI', this)" id="IPI_text">Mostrar Detalhes</button>
+                    <div id="IPI" class="additional-info">
+                        <div class="info-item">
+                            <h4>Período</h4>
+                            <p>Tarde</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Duração</h4>
+                            <p>3 anos</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Área de Atuação</h4>
+                            <p>Desenvolvimento Web, E-commerce, Marketing Digital, Suporte Técnico.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="course">
+                <div class="course-header">
+                    <h3>Desenvolvimento de Sistemas</h3>
+                </div>
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Desenvolvimento de Sistemas" class="course-image">
+                <div class="course-content">
+                    <p id="Descricao">
+                        É o profissional que analisa e projeta sistemas. Constrói, documenta,
+                        realiza testes e mantém sistemas de informação. Utiliza ambientes de
+                        desenvolvimento e linguagens de programação específica. Modela,
+                        implementa e mantém bancos de dados. O candidato que ingressar no
+                        curso técnico de Desenvolvimento de Sistemas, na modalidade AMS,
+                        poderá prosseguir os estudos em uma Fatec no curso superior de
+                        tecnologia em Análise e Desenvolvimento de Sistemas.
+                    </p>
+                    <button class="info-btn" onclick="toggleInfo('DDS', this)" id="DDS_text">Mostrar Detalhes</button>
+                    <div id="DDS" class="additional-info">
+                        <div class="info-item">
+                            <h4>Período</h4>
+                            <p>Noite</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Duração</h4>
+                            <p>3 anos</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>Área de Atuação</h4>
+                            <p>Programação, Análise de Sistemas, Banco de Dados, Qualidade de Software.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            © Jennifer Rodrigues Barbosa - 2025
+        </div>
+    </footer>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>   
+    <script src="script.js"></script>   
+</body>
+</html>
